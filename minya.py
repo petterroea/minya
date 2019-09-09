@@ -78,7 +78,7 @@ def main():
 	parser.add_argument("--config", help="Config file")
 	parser.add_argument("--variableContext", help="Folder for extracting variables")
 	parser.add_argument("--verbose", default=False, action='store_true', help="More verbose logging")
-	parser.add_argument("--listen", default=False, action='store_true', help="More verbose logging")
+	parser.add_argument("--listen", default=False, action='store_true', help="Listens for file changes and automatically re-renders")
 	args = parser.parse_args()
 
 	config = {}
