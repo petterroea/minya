@@ -13,10 +13,10 @@ from watchdog.observers import Observer
 from watchdog.events import PatternMatchingEventHandler  
 
 class ListenHandler(PatternMatchingEventHandler):
-    _patterns = ["*"]
-    _ignore_directories = False
-    _ignore_patterns = True
-    _case_sensitive = False
+    patterns = "*"
+    ignore_patterns = ""
+    ignore_directories = False
+    case_sensitive = True
 
     def __init__(self, config, variables):
     	self.config = config
