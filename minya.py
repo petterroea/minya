@@ -64,7 +64,7 @@ def walkSource(config, variables):
 			if ".jinja" in file:
 				print("Checking %s" % fullPath)
 
-				processed = processFile(fullPath, variables)
+				processed = processFile(fullPath, config, variables)
 
 				with open(destPath.replace(".jinja", ""), 'w') as outfile:
 					outfile.write(processed)

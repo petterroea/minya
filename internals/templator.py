@@ -1,8 +1,8 @@
-from jinja2 import Template
+from jinja2 import Environment, FileSystemLoader
 
 
-def processFile(filename, variables):
+def processFile(filename, config, variables):
 	with open(filename, 'r') as stream:
 		data = stream.read()
-		t = Template(data)
+		t = Environment(loader=FileSystemLoader(config["input"])).from_string(data)
 		return t.render(variables)
