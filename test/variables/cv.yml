@@ -1,0 +1,62 @@
+---
+name: Liam Svanåsbakken Crouch
+experience:
+  - name: Fusetools
+    start: Fall 2013
+    end: Current
+    title: Software Engineer
+    description: Has been with company since they made a realtime graphics suite, now they are revolutionizing apps as a service
+    keywords:
+      - CI
+      - Documentation writing
+      - Example writing
+      - UX
+      - Frontend development
+      - Unit testing
+      - Rendering
+  - name: Infected LAN
+    start: 2013
+    end: Current
+    title: Technical chief/Web developer
+    description: Is a computer party held twice a year in Asker, Norway. The party had 425 participants and 150 volunteer crew at its greatest, all of which were given internet access and a desk. I have written their web services since 2013, and have functioned as technical chief since 2018.
+  - name: The Gathering
+    start: 2012
+    end: 2015?
+    title: Competition responsible/mentor
+    description: Introduced the "Fast game dev" competition. Was responsible for the execution of a few competitions, with Game development being the biggest one. Has also worked as mentor a few years, meaning i got a free space in return for helping participants with programming.
+  - name: Sone nord
+    start: 2011
+    end: 2013~
+    title: Youth volunteer
+    description: Assisted in arranging a few activities, including an annual LAN-party for 60 participants, in which i was responsible for enertainment.
+education:
+  - name: Electrician's education + general university-preparing courses
+    location: Rud Videregående Skole
+    type: High school
+    started: 2014
+    finished: 2017
+    description: A special high school program aimed at preparing people for electrical engineering at the university level.
+  - name: Bachelor in Informatics
+    location: NTNU
+    type: University degree
+    started: 2017
+    finished: 2020
+skills:
+  major:
+    - Java
+    - C++
+    - Linux
+    - Typescript
+    - Python
+    - PHP
+    - Docker
+  minor:
+    - C#
+    - C
+    - x86 and ARM assembly
+    - Reverse engineering
+    - MySQL
+    - HTML/CSS
+    - Fuse(app development framework)
+    - CI/CD
+    - Unit testing
